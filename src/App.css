@@ -843,12 +843,9 @@ position: relative;
 }
 
 
-
 .acerca-info{
   display: flex;
   justify-content: center;
-  
-  
 
 }
 .acerca-bx {
@@ -892,6 +889,50 @@ iframe{
   border-radius: 30px;
   border:  10px solid #111;
 }
+@media (max-width: 768px)  {
+
+  .acerca-bx {
+    padding: 23px 34px;
+    margin-bottom: 213px;
+  }
+
+  .acerca-bx h2 {
+    margin-bottom: 30px;
+  }
+
+  .acerca-video {
+    position: absolute;
+    top: 373px;
+    margin: 0 auto;
+  }
+  iframe{
+    width: 560px;
+    height: 315px;
+  }
+
+} 
+
+
+@media (max-width: 767px) {
+
+  .acerca-video {
+    position: absolute;
+    top: 623px;
+    margin: 0 auto;
+  }
+  iframe{
+    width: 100%;
+    height: 315px;
+  }
+
+  .acerca-bx {
+    padding: 23px 13px;
+    margin-bottom: 273px;
+  }
+
+
+  
+} 
 
 
 
