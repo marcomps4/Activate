@@ -11,7 +11,7 @@ import tallerImg3 from "../img/taller3.jpg";
 import tallerImg4 from "../img/taller4.jpg";
 import tallerImg5 from "../img/taller5.jpg";
 import tallerImg6 from "../img/taller6.jpg";
-import colorSharp2 from "../img/color-sharp2.png";
+
 import {PiPencilLineFill} from "react-icons/pi"
 
 export const Programa = () => {
